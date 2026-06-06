@@ -106,7 +106,7 @@ function UrlForm({ onAnalyze, error }) {
 
   return (
     <>
-      <form className="url-form" onSubmit={handleSubmit} style={{ margin: 0 }}>
+      <form className="url-form" onSubmit={handleSubmit}>
         <div className="url-input-row">
           <input
             className="url-input"
