@@ -1,0 +1,39 @@
+# ── Secrets — NEVER commit these ──────────────────────────────
+.env
+.env.local
+.env.production
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+service-account*.json
+
+# ── Python ─────────────────────────────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Node / Frontend ────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
